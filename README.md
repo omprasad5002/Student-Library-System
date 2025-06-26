@@ -1,7 +1,5 @@
 # Library Management System (Java Console App)
 
-Ye ek simple Java-based library management system hai jisme books ko add, view, issue aur return kar sakte hain — sab kuch command line par hota hai.
-
 ## 💻 Tools Used
 - Java (OOP concepts)
 - VS Code (for writing code)
