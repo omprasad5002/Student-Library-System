@@ -1,59 +1,58 @@
 # Library Management System (Java Console App)
 
-## 💻 Tools Used
-- Java (OOP concepts)
-- VS Code (for writing code)
-- Git & GitHub (for version control)
+This is a basic Java project that allows users to manage a simple library system through the console. Users can add books, view the book list, issue a book, and return a book.
 
-## 🧠 Concepts Used
+## 💻 Tools Used
+- Java (Core + OOP Concepts)
+- VS Code (Editor)
+- Git & GitHub (Version Control)
+
+## 📘 Concepts Practiced
 - Classes & Objects
 - Inheritance
 - Polymorphism
-- ArrayList
+- Abstraction
 - Method Overriding
-- Abstraction (through abstract class)
+- ArrayList
+- Scanner class for input handling
 
 ## 📂 Project Structure
-├── Main.java // Entry point of the program
-├── Book.java // Book class (extends Item)
-├── Item.java // Abstract parent class
-├── User.java // User class (optional for extension)
-├── Library.java // Logic for managing books
-└── README.md // You're reading this!
+```
+├── Main.java        // Main class (entry point)
+├── Library.java     // Handles logic (add/view/issue/return)
+├── Book.java        // Book class (inherits from Item)
+├── Item.java        // Abstract base class
+├── User.java        // Basic user structure (optional for future use)
+└── README.md        // This file
+```
 
-## 🔄 How to Run
+## ▶️ How to Run This Program
+1. Open terminal in the project folder.
+2. Compile all Java files:
+   ```
+   javac *.java
+   ```
+3. Run the program:
+   ```
+   java Main
+   ```
 
-1. Open terminal in project folder  
-2. Compile all files:  
+## ✨ Features
+- Add new books with title and author name.
+- View all books in the library.
+- Issue a book if it's available.
+- Return a previously issued book.
+- Exit the program safely.
 
-javac *.java
+## 🤔 Why I Made This Project?
+This project was created as part of my internship task to strengthen my Java and OOP fundamentals. It helped me understand how inheritance and polymorphism are applied in real-world scenarios.
 
-3. Run the main class:  
+## 🔗 GitHub Repository
+[View on GitHub](https://github.com/omprasad5002/Student-Library-System)
 
-
-## 📋 Features
-
-- Books add kar sakte ho (title & author)
-- Sare books list hote hain
-- Book issue karne ka option hai
-- Book return bhi ho sakti hai
-- Exit option bhi diya gaya hai
-
-## 🤓 Why I Made This?
-
-- OOP ke basic concepts ko practice karne ke liye
-- Java ka real use-case samajhne ke liye
-- Internship me diya gaya daily task complete karne ke liye
-
-## 🔗 GitHub Repo Link
-
-[👉 Click to View the Project](https://github.com/omprasad5002/Student-Library-System)
-
----
-
-## 🙋‍♂️ Created by: Om Prasad
-
-Final Year B.Tech Student | Java Learner  
+## 👨‍💻 Created By
+**Om Prasad**  
+B.Tech Final Year Student  
 Email: omprasad.inboxx@gmail.com  
 GitHub: [omprasad5002](https://github.com/omprasad5002)
 
